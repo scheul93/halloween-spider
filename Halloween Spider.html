@@ -1,0 +1,14 @@
+<!-- AR.js by @jerome_etienne - github: https://github.com/jeromeetienne/ar.js - info: https://medium.com/arjs/augmented-reality-in-10-lines-of-html-4e193ea9fdbf -->
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+<script src="https://cdn.rawgit.com/jeromeetienne/AR.js/1.6.0/aframe/build/aframe-ar.js"></script>
+<body style='margin : 0px; overflow: hidden;'>
+	<a-scene embedded arjs='sourceType: webcam;'>
+      <a-assets>
+         <a-asset-item id="spider" src="https://ucarecdn.com/70b02dc7-b38a-4f5d-a11c-a5422f04a0a9/"></a-asset-item>
+         <a-asset-item id="spider-mtl" src="https://ucarecdn.com/4cdfd81b-3de6-4510-af27-86d0b1606d9e/"></a-asset-item>
+      </a-assets>
+      
+      <a-entity obj-model="obj: #spider; mtl: #spider-mtl" scale=".5 .5 .5"></a-entity>
+		<a-marker-camera preset='hiro'></a-marker-camera>
+	</a-scene>
+</body>

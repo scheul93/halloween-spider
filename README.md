@@ -1,5 +1,5 @@
 # halloween-spider
-Proof on concept for Halloween AR project.
+Proof on concept for Halloween AR project. This project is deprecated
 
 ## Run the project
 To run this project, open the `Halloween Spider.html` file in your browser. Allow webcam access.

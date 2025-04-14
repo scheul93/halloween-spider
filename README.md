@@ -8,3 +8,6 @@ Open the `HIRO.jpg` image on your phone or print it out. Hold this image in fron
 
 ## Reference
 This project uses [A-Frame](https://aframe.io/) as the augmented reality library.
+
+
+Updating the READE
